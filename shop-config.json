@@ -1,0 +1,17 @@
+{
+  "currency": "BSV",
+  "receivingAddress": null,
+  "pricesSatoshis": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "note": "Set real product prices in satoshis and your public BSV receiving address to enable payment QR. Shipping not included."
+}
