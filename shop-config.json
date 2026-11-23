@@ -2,16 +2,16 @@
   "currency": "BSV",
   "receivingAddress": null,
   "pricesSatoshis": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    100000000,
+    100000000,
+    100000000,
+    100000000,
+    100000000,
+    100000000,
+    100000000,
+    100000000,
+    100000000,
+    100000000
   ],
-  "note": "Set real product prices in satoshis and your public BSV receiving address to enable payment QR. Shipping not included."
+  "note": "Each bowl costs 1 BSV (100,000,000 satoshis). Shipping not included. Configure public receivingAddress before enabling payment QR."
 }
