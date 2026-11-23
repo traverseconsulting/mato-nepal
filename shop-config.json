@@ -1,17 +1,7 @@
 {
   "currency": "BSV",
   "receivingAddress": null,
-  "pricesSatoshis": [
-    100000000,
-    100000000,
-    100000000,
-    100000000,
-    100000000,
-    100000000,
-    100000000,
-    100000000,
-    100000000,
-    100000000
-  ],
-  "note": "Each bowl costs 1 BSV (100,000,000 satoshis). Shipping not included. Configure public receivingAddress before enabling payment QR."
+  "pricingModel": "geometric-half",
+  "basePriceSatoshis": 5000000000,
+  "note": "First bowl 50 BSV, each subsequent added bowl costs half the previous. Cart is priced by addition order; removing an item recalculates. Total is under 100 BSV before shipping. Set a public BSV receiving address to enable QR."
 }
